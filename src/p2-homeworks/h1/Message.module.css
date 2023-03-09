@@ -1,0 +1,64 @@
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0d0d0;
+    width: 450px;
+    height: 120px;
+}
+
+.wrapper {
+    display: flex;
+    background-color: #620f0f;
+    width: 420px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100px;
+    height: 100%;
+    background-color: #d0d0d0;
+    border-radius: 0 0 20px 0;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.messageWrapper {
+    background-color: #620f0f;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    margin: -10px 0 0 0;
+}
+
+.messageText {
+    width: 230px;
+    height: 70px;
+}
+
+.name {
+    color: grey;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.message {
+    color: #c5c5c5;
+    font-size: 20px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: cyan;
+    font-size: 30px;
+}
